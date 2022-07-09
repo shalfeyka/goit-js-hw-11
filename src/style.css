@@ -1,0 +1,97 @@
+
+.box-form{
+    display: block;
+    background-color: #EE82EE;
+    width: 100%;
+    margin-bottom: 45px;
+  }
+ 
+ .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EE82EE;
+    opacity: 0.85;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(223, 64, 90, 0.2);
+  }
+.input-search {
+  height: 42px;
+}
+  .load-more {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFC0CB;
+    color:#FFFAFA;
+    margin-bottom: 20px;
+  }
+
+.is-hidden {
+    display: none;
+}
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .gallery__link {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+  }
+  
+  .gallery__link:hover {
+    cursor: pointer;
+  }
+
+  .gallery__photo-card {
+    margin-bottom: 60px;
+      /* display: flex;
+      flex-wrap: wrap; */
+      
+    }
+.search-button {
+      cursor: pointer;
+      margin-left: 15px;
+    }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    border: #0e0c0c;
+  }
+
+  .info-item {
+    text-align: center;
+    font-size: 14px;
+    color: #BC8F8F;
+  }
+  
+  .gallery__photo-card:hover {
+    transform: scale(1.01);
+  }
+  
+  .photo-card__image {
+    height: 100%;
+    width: 100%;
+
+  }
+  
+
+
