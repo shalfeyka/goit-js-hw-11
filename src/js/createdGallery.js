@@ -2,7 +2,8 @@ import '../style.css'
 
 export function createGallery(data) {
     return data.map(image => 
-      `<div class="gallery__photo-card">
+      `<div class="gallery__card">
+      <div class="gallery__photo-card">
         <a class="gallery__link" href=${image.largeImageURL}>
           <img class="photo-card__image" src="${image.webformatURL}" alt="${image.tags}" loading="lazy"/>
           <div class="info">
@@ -20,6 +21,7 @@ export function createGallery(data) {
               </p>
           </div>
         </a>
-      </div> `
+      </div> 
+      </div>`
     ).join('');
 }
