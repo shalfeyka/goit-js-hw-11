@@ -40,7 +40,6 @@
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
     justify-content: center;
     padding: 0;
     list-style: none;
@@ -85,8 +84,13 @@
   }
 .gallery__card {
   border: #0e0c0c;
+  width: 400px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+
 }
-  .info-item {
+ .info-item {
     text-align: center;
     font-size: 14px;
     color: #BC8F8F;
